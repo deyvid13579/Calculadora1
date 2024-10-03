@@ -15,6 +15,7 @@ import java.io.BufferedWriter;
 import java.util.ArrayList;
 import java.io.File;
 
+
 // constructor de la clase ventana
 public class ventana implements ActionListener{
     //atributos de la clase 
