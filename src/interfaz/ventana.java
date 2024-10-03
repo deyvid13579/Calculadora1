@@ -14,9 +14,7 @@ import java.io.IOException;
 import java.io.BufferedWriter;
 import java.util.ArrayList;
 import java.io.File;
-
-
-// constructor de la clase ventana
+// constructor de la clase ventana.
 public class ventana implements ActionListener{
     //atributos de la clase 
     private String usuario;
@@ -51,7 +49,7 @@ public class ventana implements ActionListener{
     JButton mostrarOperacionesButton = new JButton("Resultados");
     
     public ventana(String usuario) throws IOException{
-        this.usuario = usuario; // Almacena el nombre del usuario
+        this.usuario = usuario; // Almacena el nombre del usuario.
         this.operaciones = new ArrayList<>(); // Inicializa la lista
         iniciar(usuario); // Método que inicia la interfaz gráfica
         cargarOperacionesDesdeArchivo();
