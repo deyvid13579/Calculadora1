@@ -2,7 +2,7 @@
 package interfaz;
 import net.objecthunter.exp4j.Expression;
 import net.objecthunter.exp4j.ExpressionBuilder;
-
+//importaciones
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -15,9 +15,9 @@ import java.io.BufferedWriter;
 import java.util.ArrayList;
 import java.io.File;
 
-
+// constructor de la clase ventana
 public class ventana implements ActionListener{
-    
+    //atributos de la clase 
     private String usuario;
     private ArrayList<String> operaciones;
     
@@ -55,7 +55,7 @@ public class ventana implements ActionListener{
         iniciar(usuario); // Método que inicia la interfaz gráfica
         cargarOperacionesDesdeArchivo();
     }
-
+//metodo de la configuracion de la interfaz grafica como (darle color,marco,botones).
     private void iniciar(String usuario) throws IOException {
         // Crear archivo de datos
         this.documento.create("C:\\Users\\MSI CYBORG\\Downloads\\Calculadora4\\Calculadora1\\src\\data\\data.txt");
@@ -192,7 +192,7 @@ public class ventana implements ActionListener{
 
         
     }
-
+     // manejo de eventos esto se encarga de darle clip a cierto boton y asi imgresar a darle esa funcion donde necesite ingresar.
     @Override
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == this.sumar) {
@@ -260,7 +260,7 @@ public class ventana implements ActionListener{
        
      }
 
-   
+   //se encarga de leer las operaciones y de esa manera guardar en una lista
     private void cargarOperacionesDesdeArchivo() {
     String rutaArchivo = "C:\\Users\\MSI CYBORG\\Downloads\\Calculadora4\\Calculadora1\\src\\data\\" + usuario + "_actividades.txt";
     operaciones.clear(); // Limpiar la lista antes de cargar
@@ -274,7 +274,7 @@ public class ventana implements ActionListener{
         JOptionPane.showMessageDialog(frame, "Error al cargar las operaciones.", "Error", JOptionPane.ERROR_MESSAGE);
     }
 }
-   
+   //se encarga de leer y asi guardar el archivo actual en una lista 
 private void guardarOperacionesEnArchivo() {
     String rutaArchivo = "C:\\Users\\MSI CYBORG\\Downloads\\Calculadora4\\Calculadora1\\src\\data\\" + usuario + "_actividades.txt";
     
@@ -287,7 +287,7 @@ private void guardarOperacionesEnArchivo() {
         ex.printStackTrace();
     }
 }
-    
+    //es una amnera donde puedes modificar una lista.
     public void modificarOperacion(int indice, String nuevaOperacion) {
     if (indice >= 0 && indice < operaciones.size()) {
         operaciones.set(indice, nuevaOperacion); // Modifica la operación
@@ -297,7 +297,7 @@ private void guardarOperacionesEnArchivo() {
         JOptionPane.showMessageDialog(frame, "Índice fuera de rango.", "Error", JOptionPane.ERROR_MESSAGE);
     }
 }
-    
+    //esto se encarga de mostrar toda las actividades de cada usuario y permite modificar crear nuevo actividad,eliminar 
 private void mostrarOperaciones() {
     JList<String> listaOperaciones = new JList<>(operaciones.toArray(new String[0]));
     listaOperaciones.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
@@ -395,7 +395,7 @@ private void mostrarOperaciones() {
     dialog.setLocation(x, y);
     dialog.setVisible(true);
 }
-
+//METODO PARA CALCULAR: esta exprecion toma la expresión ingresada, la evalúa usando exp4j y actualiza la lista de operaciones.
  public void calcular() {
     String expresion = this.entrada.getText();
     Expression e = new ExpressionBuilder(expresion).build();
@@ -433,7 +433,7 @@ private void mostrarOperaciones() {
     guardarOperacionesEnArchivo();
 }
 
-
+//REGISTRO DE ACTIVIDADES": Guarda un registro de cada operación realizada junto con el nombre del usuario creado.
 private void registrarActividad(String registro) {
     String user = this.usuario; // Usa el nombre del usuario
 
@@ -446,8 +446,5 @@ private void registrarActividad(String registro) {
     } catch (IOException ex) {
         ex.printStackTrace();
     }
-}
-
-    
-    
+  } 
 }

@@ -14,7 +14,7 @@ public class Register implements ActionListener {
     private JPasswordField passwordField;
     private JPasswordField confirmPasswordField;
     private JFrame frame;
-
+  // constructor
     public Register() {
         frame = new JFrame("Registrar Usuario");
         usuarioField = new JTextField();
@@ -54,13 +54,12 @@ public class Register implements ActionListener {
         frame.add(cancelButton);
 
         registerButton.addActionListener(this);
-        cancelButton.addActionListener(e -> frame.dispose()); // Acción para el botón de cancelar
+        cancelButton.addActionListener(e -> frame.dispose());
 
         frame.setVisible(true);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
-
-    @Override
+    //manejo de accciones para dar la funcionabilidad de cada boton de y registro como mensaje del error que sale guando ingres datos 
     public void actionPerformed(ActionEvent e) {
         String usuario = usuarioField.getText().trim();
         String contraseña = new String(passwordField.getPassword()).trim();

@@ -6,15 +6,16 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
-
+//constructor
 public class Archivos  {
+    //Atributos de la clase
     private String nombre;
     private File archivo;
 
     public Archivos(String nombre)  {
         this.nombre=nombre;      
     }
-    
+    // metodo para crear archivos en alguna ruta especificada
     public void  create( String ruta) throws IOException  {
         this.archivo = new File(ruta);
         this.archivo.createNewFile();        
@@ -24,7 +25,7 @@ public class Archivos  {
     return this.nombre;
     }
     
-    // Registra una línea en el archivo
+    // Registra linias en un archivo
     public  boolean registrar(String linea){
         try {
             if(archivo.exists()){
@@ -55,24 +56,13 @@ public class Archivos  {
         }
         return false;
     }
-
-    /**
-     * @param nombre the nombre to set
-     */
+    //Métodos para Obtener y Establecer Atributos
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
-
-    /**
-     * @return the archivo
-     */
     public File getArchivo() {
         return archivo;
     }
-
-    /**
-     * @param archivo the archivo to set
-     */
     public void setArchivo(File archivo) {
         this.archivo = archivo;
     }

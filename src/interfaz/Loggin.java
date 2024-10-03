@@ -13,9 +13,9 @@ import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JPasswordField;
 import javax.swing.JTextField;
-
+//constructor
 public class Loggin implements ActionListener {
-    
+    //atributos de cada clase
     JFrame frame = new JFrame("Iniciar Sesión");
     JLabel iniciarSesion = new JLabel("INICIAR SESION");
     JLabel usuarioLabel = new JLabel("Usuario: ");
@@ -32,16 +32,16 @@ public class Loggin implements ActionListener {
         loadUsers();
         initComponents(); 
     }
-
+     //inicializacion de los componentes
     private void initComponents() {
         frame.setSize(400, 300);
         frame.setLayout(null);
         frame.setLocationRelativeTo(null);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-
+        //posición y estilo de los componentes
         iniciarSesion.setBounds(150, 20, 150, 30);
         iniciarSesion.setFont(new Font("Arial", Font.BOLD, 20));
-        
+        //etiquetas y campos
         usuarioLabel.setBounds(50, 70, 100, 30);
         usuarioField.setBounds(150, 70, 200, 30);
 
@@ -50,12 +50,12 @@ public class Loggin implements ActionListener {
 
         registrarseButton.setBounds(50, 180, 120, 30);
         accederButton.setBounds(200, 180, 120, 30);
-        cancelarButton.setBounds(125, 220, 120, 30); // Posicionar el botón Cancelar
-        
+        cancelarButton.setBounds(125, 220, 120, 30);
+        // Asignar acciones a los botones
         registrarseButton.addActionListener(this);
         accederButton.addActionListener(this);
-        cancelarButton.addActionListener(e -> frame.dispose()); // Acción para el botón Cancelar
-        
+        cancelarButton.addActionListener(e -> frame.dispose()); 
+        // Agregar componentes al marco
         frame.add(iniciarSesion);
         frame.add(usuarioLabel);
         frame.add(usuarioField);
@@ -63,11 +63,11 @@ public class Loggin implements ActionListener {
         frame.add(passwordField);
         frame.add(registrarseButton);
         frame.add(accederButton);
-        frame.add(cancelarButton); // Agregar el botón Cancelar
+        frame.add(cancelarButton);
         
         frame.setVisible(true);
     }
-
+    // Carga de archivos (como nombres,apellidos)
     private void loadUsers() {
         try (BufferedReader reader = new BufferedReader(new FileReader("C:\\Users\\MSI CYBORG\\Downloads\\Calculadora4\\Calculadora1\\src\\data\\users.txt"))) {
             String line;
@@ -82,7 +82,7 @@ public class Loggin implements ActionListener {
             e.printStackTrace();
         }
     }
-
+    //Manejo de acciones como(las funcionavilidades de cada boton y mensajes de cada funcion o actividad realizada)
     @Override
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == accederButton) {
@@ -104,14 +104,14 @@ public class Loggin implements ActionListener {
             }
         } else if (e.getSource() == registrarseButton) {
             frame.dispose();
-            new Register(); // Pasar la instancia de Loggin a Register
+            new Register();
         }
     }
-
+  // metodo para cargar las listas mientras enta en ejecucion.
     public void refreshUsers() {
-        loadUsers(); // Recargar usuarios desde el archivo
+        loadUsers();
     }
-
+   // controlar la visividad del marco.
     public void setVisible(boolean visible) {
         frame.setVisible(visible);
     }

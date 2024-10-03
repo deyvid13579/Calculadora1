@@ -4,7 +4,7 @@ package interfaz;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.geom.Ellipse2D;
-
+//constructor
 public class botonCircular extends JButton {
 
     public botonCircular(String texto) {
@@ -12,11 +12,12 @@ public class botonCircular extends JButton {
         setContentAreaFilled(false);
         setFocusPainted(false);
     }
-
+//funcionabilidades externos para darle forma a tus venatanas como(darle color,figura.estilo...ect
+    // darle forma a tus botones y cada cuadro de cad numero o letras.
     @Override
     protected void paintComponent(Graphics g) {
         if (getModel().isArmed()) {
-            g.setColor(Color.LIGHT_GRAY);
+            g.setColor(Color.LIGHT_GRAY); 
         } else {
             g.setColor(getBackground());
         }
