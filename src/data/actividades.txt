@@ -1,0 +1,12 @@
+
+2024-09-22T10:16:30.369049400 - Usuario: ylen realizó la operación: 36.0 + 9.0 = 45.0
+2024-09-22T10:16:43.124399700 - Usuario: ylen realizó la operación: 3333.0 + 4444.0 = 7777.0
+2024-09-22T10:17:01.054575200 - Usuario: ylen realizó la operación: 7777.0445555 * 4444.0 = 3.4561186004641995E7
+2024-09-22T18:13:44.064619600 - Usuario: Usuario realizó la operación: 88+2 = 90.0
+2024-09-22T18:16:14.260261300 - Usuario: Usuario realizó la operación: 99*6 = 594.0
+2024-09-22T18:24:43.458822300 - Usuario: Usuario realizó la operación: 88+55 = 143.0
+2024-09-22T18:29:45.742210600 - Usuario: ELY realizó la operación: 852+8 = 860.0
+Usuario: LUIS realizó la operación: 7777*9 = 69993.0
+Usuario: LUIS realizó la operación: 5555+999 = 6554.0
+Usuario: ELY realizó la operación: 853*9 = 7677.0
+Usuario: NOE realizó la operación: 55+6 = 61.0

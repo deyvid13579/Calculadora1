@@ -1,0 +1,71 @@
+Usuario: w realizó la operación: 8+8 = 16.0
+Usuario: w realizó la operación: 2*4 = 8.0
+Usuario: w realizó la operación: 7-8 = -1.0
+Usuario: w realizó la operación: 856*8 = 6848.0
+Usuario: w realizó la operación: 8*9 = 72.0
+Usuario: w realizó la operación: 8+9 = 17.0
+Usuario: w realizó la operación: 7*7 = 49.0
+Usuario: w realizó la operación: 8+9 = 17.0 = 0.0
+Usuario: w realizó la operación: 8*8 = 64.0
+Usuario: w realizó la operación: 8+9 = 17.0 = 0.0
+Usuario: w realizó la operación: 8+8 = 16.0
+Usuario: w realizó la operación: 8+8 = 15 = 0.0
+Usuario: w realizó la operación: 8*9 = 72.0
+Usuario: w realizó la operación: 72.07*3 = 216.20999999999998
+Usuario: w realizó la operación: 8*9 = 72.0 = 0.0
+Usuario: w realizó la operación: 8*9 = 72.0 = 0.0
+Usuario: w realizó la operación: 8*9 = 72.0 = 0.0
+Usuario: w realizó la operación: 8+6 = 14.0
+Usuario: w realizó la operación: 4*6 = 24.0
+Usuario: w realizó la operación: 7+2 = 9.0
+Usuario: w realizó la operación: 8*9 = 72.0
+Usuario: w realizó la operación: 7+9 = 16.0
+Usuario: w realizó la operación: 4*4 = 16.0
+Usuario: w realizó la operación: 8*8 = 64.0
+Usuario: w realizó la operación: 8*9 = 72.0
+Usuario: w realizó la operación: 8*9 = 72.0
+Usuario: w realizó la operación: 7+7 = 14.0
+Usuario: w realizó la operación: 8*9 = 72.0
+Usuario: w realizó la operación: 7+9 = 16.0
+Usuario: w realizó la operación: 6*6 = 36.0
+Usuario: w realizó la operación: 7+7 = 14.0
+Usuario: w realizó la operación: 14.0 = 14.0
+Usuario: w realizó la operación: 14.0 = 14.0
+Usuario: w realizó la operación: 7-6 = 1.0
+Usuario: w realizó la operación: 7-3 = 4.0
+Usuario: w realizó la operación: 7*9 = 63.0
+Usuario: w realizó la operación: 2+2 = 4.0
+Usuario: w realizó la operación: 4.0 = 4.0
+Usuario: w realizó la operación: 1+1 = 2.0
+Usuario: w realizó la operación: 8+8 = 16.0
+Usuario: w realizó la operación: 8*9 = 72.0
+Usuario: w realizó la operación: 7+9 = 16.0
+Usuario: w realizó la operación: 8-9 = -1.0
+Usuario: w realizó la operación: 1+1 = 2.0
+Usuario: w realizó la operación: 2+2 = 4.0
+Usuario: w realizó la operación: 8*9 = 72.0
+Usuario: w realizó la operación: 8+9 = 17.0
+Usuario: w realizó la operación: 1+1 = 2.0
+Usuario: w realizó la operación: 8-8 = 0.0
+Usuario: w realizó la operación: 8*9 = 72.0
+Usuario: w realizó la operación: 7+9 = 16.0
+Usuario: w realizó la operación: 8*9 = 72.0
+Usuario: w realizó la operación: 7+8 = 15.0
+Usuario: w realizó la operación: 1+1 = 2.0
+Usuario: w realizó la operación: 8*9 = 72.0
+Usuario: w realizó la operación: 8*9 = 72.0
+Usuario: w realizó la operación: 5+5 = 10.0
+Usuario: w realizó la operación: 8*8 = 64.0
+Usuario: w realizó la operación: 8*9 = 72.0
+Usuario: w realizó la operación: 7+9 = 16.0
+Usuario: w realizó la operación: 5*5 = 25.0
+Usuario: w realizó la operación: 1+1 = 2.0
+8*9 = 72.0
+2+2 = 4.0
+3+3 = 6.0
+2+2 = 4.0
+3+3 = 6.0
+6*6 = 36.0
+1+1+1 = 3.0
+8*8 = 64.0
+5+5 = 10.0

@@ -1,0 +1,1 @@
+Usuario: fe1 realizó la operación: 8*5 = 40.0

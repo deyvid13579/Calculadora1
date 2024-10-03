@@ -1,0 +1,4 @@
+Usuario: NOE realizó la operación: 55+9 = 64.0
+Usuario: NOE realizó la operación: 888+555 = 1443.0
+Usuario: NOE realizó la operación: 55+9 = 64.0
+Usuario: NOE realizó la operación: 88*6 = 528.0
